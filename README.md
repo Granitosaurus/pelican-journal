@@ -1,8 +1,8 @@
-# Simple Journal
+# Pelican Journal
 
-This is a simple blog for personal journaling as in journal/diary/logbook. 
+This is a simple blog engine for personal journaling as in journal/diary/logbook. 
 
-Pelican static website generator is used.
+[Pelican] static website generator is used.
 
 # Screenshot
 
@@ -16,7 +16,7 @@ Post page:
 # Usage
 
 ```shell
-$ pip install pelican
+$ pip install pelican[Markdown]
 $ git clone https://github.com/granitosaurus/simple-journal
 $ make devserver
 ```
@@ -44,3 +44,5 @@ your fully supported markdown body text goes here.
 # Enjoy!
 
 Journaling is healthy for your memory and general sanity. Try it!
+
+[Pelican]: https://github.com/getpelican/pelican
